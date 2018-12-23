@@ -19,7 +19,7 @@ if (empty($param[1])) {
     }
 }
 
-/** Pages az params */
+/** Pages and params */
 foreach ($config->page as $page) {
     if ($param[1] == $page['name']) {
         foreach ($page->param as $paramcf) {
