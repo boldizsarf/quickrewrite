@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    Options +FollowSymlinks
+    RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-s [OR]
+    RewriteCond %{REQUEST_FILENAME} !-l [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
