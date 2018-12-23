@@ -1,5 +1,5 @@
 # What is this?
-This is a small project, about an easy and quick URL rewrite, based on PHP. You can add an index page, and more pages, with parameters. Its Apache2, and IIS compatible.
+This is a small project, about an easy and quick URL rewrite engine, based on PHP. You can add an index page, and more pages, with parameters. Its Apache2, and IIS compatible.
 
 # Setup
 Just drag the files to the website's root directory. I recommend to create a sub folder for the website. Thats it!
