@@ -1,10 +1,10 @@
-# What is this?
+## What is this?
 This is a small project, about an easy and quick URL rewrite engine, based on PHP. You can add an index page, and more pages, with parameters. Its Apache2, and IIS compatible.
 
-# Setup
+## Setup
 Just drag the files to the website's root directory. I recommend to create a sub folder for the website. Thats it!
 
-# Adding an index page
+## Adding an index page
 Go to the config.xml. In the config body, just create an index tag. You can specify the index file with the href attribute.
 
 ```xml
@@ -13,7 +13,7 @@ Go to the config.xml. In the config body, just create an index tag. You can spec
 </config>
 ```
 
-# Adding a page
+## Adding a page
 If you want to add a page, just use the page tag, in the config file. You can specify the name, with the name attribute, and you can specify the page file, with the href attribute.
 
 ```xml
@@ -22,7 +22,7 @@ If you want to add a page, just use the page tag, in the config file. You can sp
 </config>
 ```
 
-# Adding parameters
+## Adding parameters
 
 You can add params with the param tag, inside the page tag. You can define the param id, and the string's name. 
 ```xml
